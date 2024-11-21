@@ -1,0 +1,23 @@
+.wrapper {
+  background-color: #fbf6f2;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.shape-events {
+  height: 250px;
+  top: 30%;
+}
+
+.shape-wave  {
+  height: 200px;
+}
+
+.text-body-secondary {
+  margin-bottom: 10px;
+}
+
+.event-wrapper {
+  min-width: 390px;
+  margin: 0 20px
+}

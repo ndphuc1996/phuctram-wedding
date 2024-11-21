@@ -1,0 +1,11 @@
+.gallery-wrapper {
+  padding: 100px 40px;
+  gap: 20px 0;
+  margin: auto;
+  background-color: #101010;
+}
+
+img {
+  max-height: 400px;
+  padding: 0 5px;
+}

@@ -1,0 +1,31 @@
+.couple-section {
+  position: relative;
+  padding: 100px 0;
+  font-family: 'Dantina', sans-serif;
+}
+
+.shape-wave-left {
+  position: absolute;
+  top: 0;
+  height: 300px;
+}
+
+.shape-wave-right {
+  position: absolute;
+  top: 70%;
+  height: 260px;
+}
+
+.divider-arrow {
+  height: 32px;
+  width: 150px;
+  background-image: url('/assets/params/images/accessory/divider-arrow.svg');
+  display: block;
+  margin: auto;
+}
+
+.couple-image {
+  height: 700px;
+  width: 700px;
+  object-fit: cover;
+}

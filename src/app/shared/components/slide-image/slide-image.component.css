@@ -1,0 +1,172 @@
+
+
+.owl-item {
+  height: 800px;
+  position: relative;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+}
+
+.item {
+
+}
+
+/*.active {*/
+/*  opacity: 1;*/
+/*  animation-name: fadeOutOpacity;*/
+/*  animation-iteration-count: 2;*/
+/*  animation-timing-function: ease-in;*/
+/*  animation-duration: 3s;*/
+/*}*/
+
+@keyframes fadeInOpacity {
+  10% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutOpacity {
+  100% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+.item {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom 70% right;
+}
+
+.v-middle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -50%;
+  left: 0;
+  transform: translate(0%, 50%);
+  -web-kit-transform: translate(0%, 50%);
+}
+
+.desc {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  padding: 45px;
+  background: #101010;
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+  opacity: 0.8;
+}
+
+.slider-text-inner {
+  position: relative;
+}
+
+.slide-title {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 5px;
+  animation: slideUp 3.5s linear forwards;
+}
+
+.slide-desc {
+  position: relative;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  line-height: 1.25em;
+  color: #fff;
+  font-weight: 400;
+  animation: slideUp 3s linear forwards;
+}
+
+.slide-sub-desc {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  line-height: 1.75em;
+  margin-bottom: 0;
+  color: #999;
+  animation: slideUp 3s linear forwards;
+}
+
+.desc {
+  animation: slideUp 1.5s linear forwards;
+}
+
+.slide-signature {
+  font-family: 'Dantina', sans-serif;
+  color: #fff;
+  margin: 0 5px;
+  position: relative;
+}
+
+.owl-nav {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 90%;
+  left: 80%;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: transparent;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 8px;
+  margin-right: 3px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.0);
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes slideUp {
+  0%,
+  50% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+}
+
+.name {
+  font-family: 'Dantina', sans-serif;
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  color: #bd8748;
+  font-size: 26px;
+}
+
+.date {
+  text-align: right;
+  margin-top: 25px;
+}
+
+
