@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1732179817116,
+  "timestamp": 1732180459565,
   "index": "/phuctram-wedding/index.csr.html",
   "assetGroups": [
     {
@@ -13,6 +13,7 @@
       "urls": [
         "/phuctram-wedding/favicon.ico",
         "/phuctram-wedding/index.html",
+        "/phuctram-wedding/main-MDJP3WDH.js",
         "/phuctram-wedding/main-OUTWXGKA.js",
         "/phuctram-wedding/manifest.webmanifest",
         "/phuctram-wedding/ngsw-worker.js",
@@ -229,6 +230,7 @@
     "/phuctram-wedding/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/phuctram-wedding/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/phuctram-wedding/index.html": "1931b92323ca958305a049fa50c2ba5f15da82f6",
+    "/phuctram-wedding/main-MDJP3WDH.js": "b6a5be22366a8fb7d5beeb92e560c9f684eb3983",
     "/phuctram-wedding/main-OUTWXGKA.js": "022a05e4e1aa71ca52b11f565a34b9ee7423c866",
     "/phuctram-wedding/manifest.webmanifest": "0ccb9118853eca8766b9aa628e31b80ea567a364",
     "/phuctram-wedding/media/fa-brands-400-CNBICIQT.ttf": "7ce89c71d5a51ac65b159c71422783dd86529c66",
