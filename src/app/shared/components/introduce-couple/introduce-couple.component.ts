@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './introduce-couple.component.html',
-  styleUrl: './introduce-couple.component.css'
+  styleUrl: './introduce-couple.component.scss'
 })
 export class IntroduceCoupleComponent {
 

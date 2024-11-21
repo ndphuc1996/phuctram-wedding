@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './what-we-do.component.html',
-  styleUrl: './what-we-do.component.css'
+  styleUrl: './what-we-do.component.scss'
 })
 export class WhatWeDoComponent {
 

@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './wedding-gallery.component.html',
-  styleUrl: './wedding-gallery.component.css'
+  styleUrl: './wedding-gallery.component.scss'
 })
 export class WeddingGalleryComponent {
 

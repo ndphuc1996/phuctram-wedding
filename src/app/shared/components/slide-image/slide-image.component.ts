@@ -9,7 +9,7 @@ import {interval, tap} from "rxjs";
   standalone: true,
   imports: [CommonModule, RouterLink, RouterOutlet],
   templateUrl: './slide-image.component.html',
-  styleUrl: './slide-image.component.css'
+  styleUrl: './slide-image.component.scss'
 })
 export class SlideImageComponent implements OnInit {
 

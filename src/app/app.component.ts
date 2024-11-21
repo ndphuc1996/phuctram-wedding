@@ -16,7 +16,7 @@ import { SharedModule } from './shared/shared.module';
     SharedModule,
   ],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
   title = 'angular-routing';

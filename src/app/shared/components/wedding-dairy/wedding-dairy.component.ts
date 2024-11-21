@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './wedding-dairy.component.html',
-  styleUrl: './wedding-dairy.component.css'
+  styleUrl: './wedding-dairy.component.scss'
 })
 export class WeddingDairyComponent {
 

@@ -27,7 +27,7 @@ import {WeddingDairyComponent} from "../../shared/components/wedding-dairy/weddi
     WeddingDairyComponent
   ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.scss'
 })
 export class HomeComponent {
 
