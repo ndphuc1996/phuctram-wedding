@@ -159,9 +159,12 @@ button {
   font-family: 'Dantina', sans-serif;
   position: absolute;
   top: 15%;
-  left: 60%;
+  left: 10%;
   color: #bd8748;
   font-size: 26px;
+  display: flex;
+  flex-direction:column;
+  text-align: right;
 }
 
 .date {
