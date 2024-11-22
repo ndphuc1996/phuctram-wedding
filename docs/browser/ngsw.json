@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1732182421822,
+  "timestamp": 1732267342310,
   "index": "/phuctram-wedding/index.csr.html",
   "assetGroups": [
     {
@@ -11,16 +11,10 @@
         "ignoreVary": true
       },
       "urls": [
-        "/phuctram-wedding/favicon.ico",
         "/phuctram-wedding/index.html",
-        "/phuctram-wedding/main-NFHZKZ5F.js",
-        "/phuctram-wedding/main-OUTWXGKA.js",
-        "/phuctram-wedding/manifest.webmanifest",
-        "/phuctram-wedding/ngsw-worker.js",
+        "/phuctram-wedding/main-QOE7MEYM.js",
         "/phuctram-wedding/polyfills-FFHMD2TL.js",
-        "/phuctram-wedding/safety-worker.js",
-        "/phuctram-wedding/scripts-EEEIPNC3.js",
-        "/phuctram-wedding/worker-basic.min.js"
+        "/phuctram-wedding/scripts-EEEIPNC3.js"
       ],
       "patterns": []
     },
@@ -196,11 +190,8 @@
     "/phuctram-wedding/assets/params/images/wedding/wedding1.jpg": "e27655547f422dce5e9d89a702ac2c69ddcdb374",
     "/phuctram-wedding/assets/params/images/wedding/wedding2.jpg": "5d63ac35657b1723a71745b9eb1cf5d2ce0e66ee",
     "/phuctram-wedding/assets/params/images/wedding/wedding3.jpg": "b3b716c20e0080e67816dcf5d9c8daaf1cd1e4c4",
-    "/phuctram-wedding/favicon.ico": "b03261f7f1a940cc221af641abc6397d13636ecd",
-    "/phuctram-wedding/index.html": "1931b92323ca958305a049fa50c2ba5f15da82f6",
-    "/phuctram-wedding/main-NFHZKZ5F.js": "905459535a15a4c7214b756ed843fc14fb06dffa",
-    "/phuctram-wedding/main-OUTWXGKA.js": "022a05e4e1aa71ca52b11f565a34b9ee7423c866",
-    "/phuctram-wedding/manifest.webmanifest": "0ccb9118853eca8766b9aa628e31b80ea567a364",
+    "/phuctram-wedding/index.html": "a0afb04f0699b10b92c83a89f3ab69b99581c937",
+    "/phuctram-wedding/main-QOE7MEYM.js": "409c21daad51ef1d46493ce46633da0c1f96bb7c",
     "/phuctram-wedding/media/fa-brands-400-CNBICIQT.ttf": "7ce89c71d5a51ac65b159c71422783dd86529c66",
     "/phuctram-wedding/media/fa-brands-400-MDS4TU4L.woff2": "e948290773216dc1b50c2121314a8cf918c22b54",
     "/phuctram-wedding/media/fa-regular-400-2FI4ICQD.ttf": "775e2ecfc18d22b177274453d4c014ca6be63208",
@@ -209,11 +200,8 @@
     "/phuctram-wedding/media/fa-solid-900-Z3HFQTXF.woff2": "69335cd6a6ac82253ea5545899cccde35af39131",
     "/phuctram-wedding/media/fa-v4compatibility-4Q6RMATN.woff2": "87d0bbc38baa356297521c41ed8ca7d78e8d16e2",
     "/phuctram-wedding/media/fa-v4compatibility-TNIB7AHA.ttf": "bd27e43f3d1e5019faaabc9ec6c5d3d7c5f100ef",
-    "/phuctram-wedding/ngsw-worker.js": "641459076820bbe7176747d988ff754dada20a62",
     "/phuctram-wedding/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "/phuctram-wedding/safety-worker.js": "3b3c24f5fca13ee61325298c2009282aeef273c7",
-    "/phuctram-wedding/scripts-EEEIPNC3.js": "2318ded8c885787a1645385a82c1ca883c359034",
-    "/phuctram-wedding/worker-basic.min.js": "3b3c24f5fca13ee61325298c2009282aeef273c7"
+    "/phuctram-wedding/scripts-EEEIPNC3.js": "2318ded8c885787a1645385a82c1ca883c359034"
   },
   "navigationUrls": [
     {
