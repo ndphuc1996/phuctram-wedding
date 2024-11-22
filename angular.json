@@ -23,7 +23,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "dist/browser"
               },
               "src/assets",
               "src/sitemap.xml",
@@ -101,7 +101,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "dist/browser"
               }
             ],
             "styles": [
