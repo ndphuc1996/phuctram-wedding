@@ -8,5 +8,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './introduce-couple.component.scss'
 })
 export class IntroduceCoupleComponent {
-  dividerStyle = {'background-image': 'url(browser/assets/params/images/accessory/divider-arrow.svg)'}
+  dividerStyle = {'background-image': 'url(assets/params/images/accessory/divider-arrow.svg)'}
 }
