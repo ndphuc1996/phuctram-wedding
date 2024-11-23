@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
 })
 export class WeddingEventComponent {
 
-
+  dividerStyle = {'background-image': 'url(browser/assets/params/images/accessory/divider-arrow.svg)'}
 }
