@@ -1,6 +1,6 @@
 <div class="row dairy-wrapper justify-content-center">
   <div class="title">Hãy cùng chúng tôi lưu lại những khoảnh khắc</div>
-  <div class="col-md-4 img-wrapper">
+  <!-- <div class="col-md-4 img-wrapper">
     <img alt="" class="img-main object-fit-cover" src="assets/params/images/dairy/phuctram-dairy-15.jpg">
     <div class="img-title">21.04.2023</div>
   </div>
@@ -22,7 +22,7 @@
 </div>
 <div class="col-md-3 img-wrapper">
   <img alt="" class="img-main object-fit-cover" src="assets/params/images/dairy/phuctram-dairy-20.jpg">
-  <div class="img-title">13.01.2023</div>
+  <div class="img-title">13.01.2024</div>
 </div>
 <div class="col-md-4 img-wrapper">
   <img alt="" class="img-main object-fit-cover" src="assets/params/images/dairy/phuctram-dairy-18.jpg">
@@ -47,5 +47,13 @@
   <div class="col-md-4 img-wrapper">
     <img alt="" class="img-main object-fit-cover" src="assets/params/images/dairy/phuctram-dairy-1.jpg">
     <div class="img-title">15.08.2024</div>
-  </div>
+  </div> -->
+
+  @for (item of data; track $index) {
+    <div class="img-wrapper" [ngClass]="item.layout">
+      <img alt="" class="img-main object-fit-cover" [src]="item.imgUrl">
+      <div class="img-title">{{item.imgTitle}}</div>
+    </div>
+  }
 </div>
+
