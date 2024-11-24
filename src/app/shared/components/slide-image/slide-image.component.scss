@@ -158,13 +158,14 @@ button {
 .name {
   font-family: 'Dantina', sans-serif;
   position: absolute;
-  top: 15%;
-  left: 10%;
+  top: 5%;
+  left: -5%;
   color: #bd8748;
   font-size: 26px;
   display: flex;
   flex-direction:column;
   text-align: right;
+  width: 100%;
 }
 
 .date {

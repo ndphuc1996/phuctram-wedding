@@ -1,7 +1,9 @@
 body {
   /*padding-top: 3.5rem;*/
   font-family: "Roboto", sans-serif;
-  min-width: 550px;
+  // min-width: 350px;
+  overflow-x: hidden;
+  
 }
 
 p {
@@ -15,6 +17,6 @@ p {
 
 @media (max-width: 450px)  {
   body {
-    min-width: 550px;
+    // min-width: 550px;
   }
 }

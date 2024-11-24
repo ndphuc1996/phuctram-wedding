@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>AngularStarter</title>
   <base href="/phuctram-wedding/">
-  <meta name="viewport" content="width=device-width, initial-scale=0.9 maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9 maximum-scale=0.9 minimum-scale=0.9">
   
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
@@ -36,6 +36,18 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk7yRZrPJ-M.woff2) format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .flex-container {
+width: 100%;
+/* padding-left: 5px; */
+/* padding-right: 5px; */
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin: auto;
+}
 }
   </style>
 </head>
