@@ -1,8 +1,8 @@
 <div class="row gallery-wrapper">
 
-  <div class="gallery-title">{{'Cùng xem hình với mình nhaaa >.<'}}</div>
+  <div class="gallery-title">{{'Hãy xem hình cùng chúng mình nhaaa >.< >.<'}}</div>
 
   @for (item of data; track $index) {
-    <img alt="" class="col-md-3 object-fit-cover" [src]="item.imgUrl">
+    <img [ngClass]="(isScrollInto ? ($index % 2 === 0 ? 'fade-in-left' : 'fade-in-right') : '')" alt="" class="col-md-3 object-fit-cover" [src]="item.imgUrl">
   }
 </div>

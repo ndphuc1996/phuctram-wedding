@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 @Component({
   selector: 'app-wedding-dairy',
   standalone: true,
@@ -76,4 +77,20 @@ export class WeddingDairyComponent {
       layout: 'col-md-4'
     }
  ]
+
+ el = inject(ElementRef)
+ isScrollInto = false;
+
+ @HostListener('window:scroll', ['$event'])
+  checkScroll() {
+    const componentPosition = this.el.nativeElement.offsetTop
+    const scrollPosition = window.pageYOffset
+    if (scrollPosition >= componentPosition - 450) {
+      console.log(11111)
+      this.isScrollInto = true;
+    } else {
+      this.isScrollInto = false;
+    }
+
+  }
 }

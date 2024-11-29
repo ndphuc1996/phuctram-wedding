@@ -10,18 +10,6 @@
   animation-duration: 3s;
 }
 
-.item {
-
-}
-
-/*.active {*/
-/*  opacity: 1;*/
-/*  animation-name: fadeOutOpacity;*/
-/*  animation-iteration-count: 2;*/
-/*  animation-timing-function: ease-in;*/
-/*  animation-duration: 3s;*/
-/*}*/
-
 @keyframes fadeInOpacity {
   10% {
     opacity: 0.9;
@@ -113,13 +101,13 @@
   margin: 0 5px;
   position: relative;
 }
-
+z
 .owl-nav {
   display: flex;
   gap: 10px;
   position: absolute;
   top: 100%;
-  left: 70%;
+  left: 60%;
 }
 
 button {

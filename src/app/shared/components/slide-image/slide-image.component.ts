@@ -3,11 +3,13 @@ import {CommonModule, isPlatformBrowser} from '@angular/common';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import {toObservable} from "@angular/core/rxjs-interop";
 import {interval, tap} from "rxjs";
+import { NgOptimizedImage } from '@angular/common'
+
 
 @Component({
   selector: 'app-slide-image',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet],
+  imports: [CommonModule, RouterLink, RouterOutlet, NgOptimizedImage],
   templateUrl: './slide-image.component.html',
   styleUrl: './slide-image.component.scss'
 })

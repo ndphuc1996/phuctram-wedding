@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink, RouterOutlet } from '@angular/router';
-
-import { environment } from '../../../environments/environment';
 
 import { SeoService } from '../../core/services/seo/seo.service';
 import {SlideImageComponent} from "../../shared/components/slide-image/slide-image.component";
@@ -11,20 +8,20 @@ import {IntroduceCoupleComponent} from "../../shared/components/introduce-couple
 import {WeddingEventComponent} from "../../shared/components/wedding-event/wedding-event.component";
 import {WeddingGalleryComponent} from "../../shared/components/wedding-gallery/wedding-gallery.component";
 import {WeddingDairyComponent} from "../../shared/components/wedding-dairy/wedding-dairy.component";
+import { WeddingInvitationComponent } from '../../shared/components/wedding-invitation/wedding-invitation.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
     CommonModule,
-    RouterLink,
-    RouterOutlet,
     SlideImageComponent,
     WhatWeDoComponent,
     IntroduceCoupleComponent,
     WeddingEventComponent,
     WeddingGalleryComponent,
-    WeddingDairyComponent
+    WeddingDairyComponent,
+    WeddingInvitationComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'

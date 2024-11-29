@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-wedding-gallery',
@@ -59,4 +59,20 @@ export class WeddingGalleryComponent {
       imgUrl: 'assets/params/images/wedding/phuctram-bg-yellow-4.jpeg'
     },
   ]
+
+  el = inject(ElementRef)
+ isScrollInto = false;
+
+ @HostListener('window:scroll', ['$event'])
+  checkScroll() {
+    const componentPosition = this.el.nativeElement.offsetTop
+    const scrollPosition = window.pageYOffset
+    if (scrollPosition >= componentPosition - 450) {
+      console.log(11111)
+      this.isScrollInto = true;
+    } else {
+      this.isScrollInto = false;
+    }
+
+  }
 }

@@ -10,11 +10,13 @@ import { loggingInterceptor } from './core/interceptors/logging-interceptor';
 
 import { PaginationService } from './shared/utils/pagination/pagination.service';
 import { SharedModule } from './shared/shared.module';
+import { provideAnimations } from '@angular/platform-browser/animations';
 
 export const MCP = true;
 
 export const appConfig: ApplicationConfig = {
   providers: [
+    provideAnimations(),
     provideHttpClient(
       withFetch(),
       withInterceptors([loggingInterceptor]),
@@ -32,6 +34,6 @@ export const appConfig: ApplicationConfig = {
       registrationStrategy: 'registerWhenStable:30000'
     }),
     importProvidersFrom(SharedModule),
-    PaginationService,
+    PaginationService
   ]
 };

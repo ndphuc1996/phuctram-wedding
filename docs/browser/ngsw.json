@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1732427938428,
+  "timestamp": 1732912678776,
   "index": "/phuctram-wedding/browser/index.csr.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/phuctram-wedding/browser/index.html",
-        "/phuctram-wedding/browser/main-YNBD5GJ7.js",
+        "/phuctram-wedding/browser/main-T32ZODCN.js",
         "/phuctram-wedding/browser/polyfills-FFHMD2TL.js",
         "/phuctram-wedding/browser/scripts-EEEIPNC3.js"
       ],
@@ -108,6 +108,9 @@
         "/phuctram-wedding/browser/assets/params/images/wedding/wedding1.jpg",
         "/phuctram-wedding/browser/assets/params/images/wedding/wedding2.jpg",
         "/phuctram-wedding/browser/assets/params/images/wedding/wedding3.jpg",
+        "/phuctram-wedding/browser/media/Inter-italic.var-YRHKCDAA.woff2",
+        "/phuctram-wedding/browser/media/Inter-roman.var-5VGNBR6A.woff2",
+        "/phuctram-wedding/browser/media/color-727V6BA6.png",
         "/phuctram-wedding/browser/media/fa-brands-400-CNBICIQT.ttf",
         "/phuctram-wedding/browser/media/fa-brands-400-MDS4TU4L.woff2",
         "/phuctram-wedding/browser/media/fa-regular-400-2FI4ICQD.ttf",
@@ -115,7 +118,8 @@
         "/phuctram-wedding/browser/media/fa-solid-900-XVWCCN5V.ttf",
         "/phuctram-wedding/browser/media/fa-solid-900-Z3HFQTXF.woff2",
         "/phuctram-wedding/browser/media/fa-v4compatibility-4Q6RMATN.woff2",
-        "/phuctram-wedding/browser/media/fa-v4compatibility-TNIB7AHA.ttf"
+        "/phuctram-wedding/browser/media/fa-v4compatibility-TNIB7AHA.ttf",
+        "/phuctram-wedding/browser/media/hue-3YTJE6JS.png"
       ],
       "patterns": []
     }
@@ -204,8 +208,11 @@
     "/phuctram-wedding/browser/assets/params/images/wedding/wedding1.jpg": "e27655547f422dce5e9d89a702ac2c69ddcdb374",
     "/phuctram-wedding/browser/assets/params/images/wedding/wedding2.jpg": "5d63ac35657b1723a71745b9eb1cf5d2ce0e66ee",
     "/phuctram-wedding/browser/assets/params/images/wedding/wedding3.jpg": "b3b716c20e0080e67816dcf5d9c8daaf1cd1e4c4",
-    "/phuctram-wedding/browser/index.html": "1b07e67ccfb63313925817a41c09a4659f617f3d",
-    "/phuctram-wedding/browser/main-YNBD5GJ7.js": "6c4d9f9c9cd796d6f949c8e36eda179f5a16ff02",
+    "/phuctram-wedding/browser/index.html": "7ce39a40f16a623d2cca0c0e61a65ffcd3300eb5",
+    "/phuctram-wedding/browser/main-T32ZODCN.js": "0ad0583682e650301918498e9626ccdd7bfa0a19",
+    "/phuctram-wedding/browser/media/Inter-italic.var-YRHKCDAA.woff2": "9995712e0ca3cda14c7d6014abe0f979cf57ec53",
+    "/phuctram-wedding/browser/media/Inter-roman.var-5VGNBR6A.woff2": "d56a83c1e298702010cde038317713aaef23fe6c",
+    "/phuctram-wedding/browser/media/color-727V6BA6.png": "c54e4eac0b6c88b9da8cfdf00b1d9093b828286b",
     "/phuctram-wedding/browser/media/fa-brands-400-CNBICIQT.ttf": "7ce89c71d5a51ac65b159c71422783dd86529c66",
     "/phuctram-wedding/browser/media/fa-brands-400-MDS4TU4L.woff2": "e948290773216dc1b50c2121314a8cf918c22b54",
     "/phuctram-wedding/browser/media/fa-regular-400-2FI4ICQD.ttf": "775e2ecfc18d22b177274453d4c014ca6be63208",
@@ -214,6 +221,7 @@
     "/phuctram-wedding/browser/media/fa-solid-900-Z3HFQTXF.woff2": "69335cd6a6ac82253ea5545899cccde35af39131",
     "/phuctram-wedding/browser/media/fa-v4compatibility-4Q6RMATN.woff2": "87d0bbc38baa356297521c41ed8ca7d78e8d16e2",
     "/phuctram-wedding/browser/media/fa-v4compatibility-TNIB7AHA.ttf": "bd27e43f3d1e5019faaabc9ec6c5d3d7c5f100ef",
+    "/phuctram-wedding/browser/media/hue-3YTJE6JS.png": "ec215387067c733aed6649b96d8a81798a58b21b",
     "/phuctram-wedding/browser/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/phuctram-wedding/browser/scripts-EEEIPNC3.js": "2318ded8c885787a1645385a82c1ca883c359034"
   },

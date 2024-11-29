@@ -17,3 +17,49 @@ img {
   color: #fff;
   margin-bottom: 30px;
 }
+
+@media (min-width: 200px) and (max-width: 770px)  {
+  img {
+    width: 50%;
+  }
+}
+
+.fade-in-left {
+  -webkit-animation: fadeInLeft 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeInLeft 4s; /* Firefox < 16 */
+  animation: fadeInLeft 4s;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+ }
+ 100% {
+    opacity: 1;
+    transform: translateX(0);
+ }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fade-in-right {
+  -webkit-animation: fadeInRight 4s; /* Safari, Chrome and Opera > 12.1 */
+  animation: fadeInRight 4s;
+}
+
+@keyframes fadeInRight {
+  0% {
+     opacity: 0;
+     transform: translateX(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+} 
+

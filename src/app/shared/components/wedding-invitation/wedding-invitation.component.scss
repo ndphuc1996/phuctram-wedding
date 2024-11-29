@@ -1,0 +1,108 @@
+:host {
+  font-family: Playfair Display;
+  .wrapper {
+    background-color: #f7f7ef;
+    padding: 100px 40px;
+  }
+
+  .title-wrapper {
+    padding-left: 20px;
+  }
+  .title-top, .title-bottom {
+    font-family: 'Dantina', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #8e7903;
+    margin-left: -40px;
+  }
+
+  .title-bottom {
+    margin-top: 30px;
+    margin-left: 50px;
+    position: relative;
+  }
+
+  .title-middle {
+    font-family: sans-serif;
+    position: absolute;
+    top: -15px;
+    left: 82%;
+    color: black;
+  }
+
+  .title-name {
+    font-family: Playfair Display;
+    font-size: 24px;
+    margin-top: 50px;
+    color: #8e7903;
+    text-align: center;
+  }
+
+  .title-date {
+    font-family: Playfair Display;
+    font-size: 24px;
+    // margin-top: 50px;
+  }
+
+  .title-border {
+    padding: 0px 8px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    margin: 0;
+  }
+
+  .wrap-name{
+    gap: 10px;
+    margin: -5px 0 -5px 0;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  hr {
+    border: none;
+    margin-top: 30px;
+    border-top: 2px dotted black;
+    background-color: #fff;
+    height: 1px;
+    width: 50%;
+  }
+
+  .left-card, .right-card {
+    border: 1px solid #82700a;
+    padding: 20px;
+  }
+
+  .left-card-name, .right-card-name  {
+    font-family: 'Corinthia', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #8e7903; 
+   }
+
+   .left-card-time {
+    text-align: center;
+    color: #8e7903; 
+    font-size: 20px;
+   }
+
+   .font-italic {
+    font-style: italic;
+   }
+
+   .right-card-title {
+    margin: 10px auto;
+    padding: 25px;
+    width: 150px;
+    border: 1px solid #8e7903;
+    border-radius: 45%;
+   }
+
+   .thank-you-section {
+    font-family: 'Corinthia', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+   }
+}

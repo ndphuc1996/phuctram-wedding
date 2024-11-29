@@ -2,6 +2,7 @@
     @for (slide of slideData; track slide; let  i = $index) {
       @if (activeSlideIndex() === i) {
         <div class="owl-item cloned">
+          <!-- <img [ngClass]="{'active': activeSlideIndex() === i}" class="item bg-img" [ngSrc]="'/assets/params/images/wedding/phuctram-bg-white-4.jpeg'" fill priority> -->
           <div [ngClass]="{'active': activeSlideIndex() === i}" class="item bg-img" [ngStyle]="slide.style">
           </div>
         </div>
