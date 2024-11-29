@@ -67,7 +67,7 @@ export class WeddingGalleryComponent {
   checkScroll() {
     const componentPosition = this.el.nativeElement.offsetTop
     const scrollPosition = window.pageYOffset
-    if (scrollPosition >= componentPosition - 450) {
+    if (scrollPosition >= componentPosition - 650) {
       console.log(11111)
       this.isScrollInto = true;
     } else {
