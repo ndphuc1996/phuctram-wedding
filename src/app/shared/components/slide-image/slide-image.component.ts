@@ -17,23 +17,23 @@ export class SlideImageComponent implements OnInit {
 
   slideData = [
     {
-      style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-white-4.jpeg)'},
+      style: {'background-image': 'url(/assets/params/images/wedding/phuctram-bg-white-1.jpg)'},
       slideTitle: 'Dream Wedding',
       slideDesc: 'We Make Your Wedding Dreams Come',
       slideSubDesc: `We believe that it is all about the <span class="slide-signature">big dreams</span> and the small details! Nullam vestibulum iaculis maximus.`,
     },
-    {
-      style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-white-5.jpeg)'},
-      slideTitle: 'Dream Wedding',
-      slideDesc: 'We Make Your Wedding Dreams Come',
-      slideSubDesc: `We believe that it is all about the <span class="slide-signature">big dreams</span> and the small details! Nullam vestibulum iaculis maximus.`,
-    },
-    {
-      style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-white-7.jpeg)'},
-      slideTitle: 'Dream Wedding',
-      slideDesc: 'We Make Your Wedding Dreams Come',
-      slideSubDesc: `We believe that it is all about the <span class="slide-signature">big dreams</span> and the small details! Nullam vestibulum iaculis maximus.`,
-    }
+    // {
+    //   style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-white-5.jpeg)'},
+    //   slideTitle: 'Dream Wedding',
+    //   slideDesc: 'We Make Your Wedding Dreams Come',
+    //   slideSubDesc: `We believe that it is all about the <span class="slide-signature">big dreams</span> and the small details! Nullam vestibulum iaculis maximus.`,
+    // },
+    // {
+    //   style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-white-7.jpeg)'},
+    //   slideTitle: 'Dream Wedding',
+    //   slideDesc: 'We Make Your Wedding Dreams Come',
+    //   slideSubDesc: `We believe that it is all about the <span class="slide-signature">big dreams</span> and the small details! Nullam vestibulum iaculis maximus.`,
+    // }
   ];
   activeSlideIndex = signal<number>(0);
   activeSlideIndex$ = toObservable(this.activeSlideIndex);
