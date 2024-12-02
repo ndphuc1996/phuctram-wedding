@@ -17,7 +17,7 @@ export class SlideImageComponent implements OnInit {
 
   slideData = [
     {
-      style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-white-22.jpg)'},
+      style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-white-1.jpg)'},
       slideTitle: 'Dream Wedding',
       slideDesc: 'We Make Your Wedding Dreams Come',
       slideSubDesc: `We believe that it is all about the <span class="slide-signature">big dreams</span> and the small details! Nullam vestibulum iaculis maximus.`,

@@ -14,32 +14,32 @@ export class WeddingGalleryComponent {
       imgUrl: 'assets/params/images/wedding/phuctram-bg-white-3.jpg',
       style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-white-3.jpg)'},
     },
-    // {
-    //   imgUrl: 'assets/params/images/wedding/phuctram-bg-white-4.jpg',
-    //   style: {'background-image': 'url(assets/params/images/wedding/phuctram-bg-white-4.jpg)'},
+    {
+      imgUrl: 'assets/params/images/wedding/phuctram-bg-white-4.jpg',
+      style: {'background-image': 'url(assets/params/images/wedding/phuctram-bg-white-4.jpg)'},
 
-    // },
+    },
     {
       imgUrl: 'assets/params/images/wedding/phuctram-bg-red-1.jpg',
       style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-red-1.jpg)'},
 
     },
-    // {
-    //   imgUrl: 'assets/params/images/wedding/phuctram-bg-red-2.jpg',
-    //   style: {'background-image': 'url(assets/params/images/wedding/phuctram-bg-red-2.jpg)'},
-    // },
+    {
+      imgUrl: 'assets/params/images/wedding/phuctram-bg-red-2.jpg',
+      style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-red-2.jpg)'},
+    },
     {
       imgUrl: 'assets/params/images/wedding/phuctram-bg-yellow-1.jpg',
       style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-yellow-1.jpg)'},
     },
-    // {
-    //   imgUrl: 'assets/params/images/wedding/phuctram-bg-yellow-2.jpg',
-    //   style: {'background-image': 'url(assets/params/images/wedding/phuctram-bg-yellow-2.jpg)'},
-    // },
-    // {
-    //   imgUrl: 'assets/params/images/wedding/phuctram-bg-normal-1.jpeg',
-    //   style: {'background-image': 'url(assets/params/images/wedding/phuctram-bg-normal-1.jpeg)'},
-    // },
+    {
+      imgUrl: 'assets/params/images/wedding/phuctram-bg-yellow-2.jpg',
+      style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-yellow-2.jpg)'},
+    },
+    {
+      imgUrl: 'assets/params/images/wedding/phuctram-bg-normal-1.jpeg',
+      style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-normal-1.jpeg)'},
+    },
     {
       imgUrl: 'assets/params/images/wedding/phuctram-bg-normal-2.jpeg',
       style: {'background-image': 'url(/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-normal-2.jpeg)'},
