@@ -1,39 +1,73 @@
-.section-padding {
-  padding: 120px 40px;
-}
+// .section-padding {
+//   padding: 120px 40px;
+// }
 
-.bg-green {
-  background-color: #8ca08b;
-}
+// .bg-green {
+//   background-color: #8ca08b;
+// }
 
-.section-subtitle {
-  font-size: 12px;
-  font-family: 'Didact Gothic', sans-serif;
-  font-weight: 400;
-  color: #fff;
-  text-transform: uppercase;
+// .section-subtitle {
+//   font-size: 12px;
+//   font-family: 'Didact Gothic', sans-serif;
+//   font-weight: 400;
+//   color: #fff;
+//   text-transform: uppercase;
+//   position: relative;
+//   letter-spacing: 3px;
+//   margin-bottom: 0;
+// }
+
+// .section-title {
+//   font-size: 36px;
+//   font-family: 'Playfair Display', serif;
+//   font-weight: 400;
+//   color: #fff;
+//   position: relative;
+//   margin-bottom: 30px;
+//   line-height: 1.25em;
+// }
+
+// .section-title span {
+//   color: #fff;
+//   font-family: 'Dantina', sans-serif;
+//   letter-spacing: 0;
+// }
+
+// p {
+//   color: #fff;
+//   font-family: sans-serif;
+// }
+
+.wrapper {
   position: relative;
-  letter-spacing: 3px;
-  margin-bottom: 0;
+  padding: 0;
+  .home {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+    font-size: 20px;
+    color: #c30606;
+    font-weight: 500;
+  }
+
+  .restaurant {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 35%;
+    left: 30%;
+    z-index: 2;
+    font-size: 20px;
+    color: #c30606;
+    font-weight: 500;
+  }
 }
 
-.section-title {
-  font-size: 36px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  color: #fff;
-  position: relative;
-  margin-bottom: 30px;
-  line-height: 1.25em;
+iframe {
+  width: 100%;
+  padding: 0;
 }
-
-.section-title span {
-  color: #fff;
-  font-family: 'Dantina', sans-serif;
-  letter-spacing: 0;
-}
-
-p {
-  color: #fff;
-  font-family: sans-serif;
+.map{
+  filter: brightness(0.8);
 }

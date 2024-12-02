@@ -9,6 +9,7 @@ import {WeddingEventComponent} from "../../shared/components/wedding-event/weddi
 import {WeddingGalleryComponent} from "../../shared/components/wedding-gallery/wedding-gallery.component";
 import {WeddingDairyComponent} from "../../shared/components/wedding-dairy/wedding-dairy.component";
 import { WeddingInvitationComponent } from '../../shared/components/wedding-invitation/wedding-invitation.component';
+import { SafePipe } from './sate.pipe';
 
 @Component({
   selector: 'app-home',

@@ -72,6 +72,11 @@ export class WeddingDairyComponent {
       layout: 'col-md-4'
     },
     {
+      imgUrl: 'assets/params/images/dairy/phuctram-dairy-12.jpg',
+      imgTitle: '21.07.2024',
+      layout: 'col-md-3'
+    },
+    {
       imgUrl: 'assets/params/images/dairy/phuctram-dairy-1.jpg',
       imgTitle: '15.08.2024',
       layout: 'col-md-3'

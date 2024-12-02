@@ -1,4 +1,4 @@
-<section class="about section-padding bg-green">
+<!-- <section class="about section-padding bg-green">
   <div class="container">
     <div class="row">
       <div class="col-md-5 animate-box fadeInUp animated" data-animate-effect="fadeInUp">
@@ -11,4 +11,33 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
+
+<div class="row">
+  <div class="col-md-6 wrapper">
+    <div class="home">Nhà của mìnhhhh</div>
+    <iframe
+    width="600"
+    height="450"
+    style="border:0"
+    class="map"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    [src]='mapsHomeURL() | safe'>
+  </iframe>
+  </div>
+<div class="col-md-6 wrapper">
+  <div class="restaurant">Nhà hàng quẩy banh nóc nè</div>
+  <iframe
+  width="600"
+  height="450"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  [src]='mapsRestaurantURL() | safe'>
+</iframe>
+</div>
+</div>
