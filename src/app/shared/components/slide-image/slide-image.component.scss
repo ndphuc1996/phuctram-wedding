@@ -165,4 +165,24 @@ button {
   padding-right: 10px;
 }
 
+@media (max-width: 500px)  {
+  .owl-item {
+    height: 600px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 600px)  {
+  .owl-item {
+    height: 620px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 700px)  {
+  .owl-item {
+    height: 650px;
+  }
+}
+
+
+
 

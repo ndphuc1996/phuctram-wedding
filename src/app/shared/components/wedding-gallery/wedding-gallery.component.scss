@@ -1,13 +1,17 @@
 .gallery-wrapper {
-  padding: 80px 40px 100px 40px;
-  gap: 20px 0;
+  padding: 80px 20px 100px 20px;
+  gap: 20px 10px;
   margin: auto;
   background-color: #101010;
+  justify-content: center;
 }
 
-img {
-  // max-height: 400px;
-  padding: 0 5px;
+.img {
+  height: 450px;
+  padding: 0;
+  background-size: cover;
+  // margin: 0 5px;
+  width: 24%;
 }
 
 .gallery-title {
@@ -18,48 +22,38 @@ img {
   margin-bottom: 30px;
 }
 
-@media (min-width: 200px) and (max-width: 770px)  {
-  img {
-    width: 50%;
+@media (min-width: 951px) and (max-width: 1200px)  {
+  .img {
+    width: 24%;
+    height: 400px;
   }
 }
 
-.fade-in-left {
-  -webkit-animation: fadeInLeft 4s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadeInLeft 4s; /* Firefox < 16 */
-  animation: fadeInLeft 4s;
-}
-
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-40px);
- }
- 100% {
-    opacity: 1;
-    transform: translateX(0);
- }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-.fade-in-right {
-  -webkit-animation: fadeInRight 4s; /* Safari, Chrome and Opera > 12.1 */
-  animation: fadeInRight 4s;
-}
-
-@keyframes fadeInRight {
-  0% {
-     opacity: 0;
-     transform: translateX(20px);
+@media (min-width: 700px) and (max-width: 950px)  {
+  .img {
+    width: 47%;
+    height: 480px;
   }
-  100% {
-     opacity: 1;
-     transform: translateX(0);
+}
+
+@media (min-width: 560px) and (max-width: 700px)  {
+  .img {
+    width: 47%;
+    height: 400px;
   }
-} 
+}
+
+@media (min-width: 468px) and (max-width: 560px)  {
+  .img {
+    width: 47%;
+    height: 350px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 468px)  {
+  .img {
+    width: 47%;
+    height: 300px;
+  }
+}
 

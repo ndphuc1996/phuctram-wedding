@@ -3,6 +3,9 @@
   <div class="gallery-title">{{'Hãy xem hình cùng chúng mình nhaaa >.< >.<'}}</div>
 
   @for (item of data; track $index) {
-    <img [ngClass]="(isScrollInto ? ($index % 2 === 0 ? 'fade-in-left' : 'fade-in-right') : '')" alt="" class="col-md-3 object-fit-cover" [src]="item.imgUrl">
+    <!-- <img [ngClass]="(isScrollInto ? ($index % 2 === 0 ? 'fade-in-left' : 'fade-in-right') : '')" alt="" class="col-md-3 object-fit-cover" [src]="item.imgUrl"> -->
+    <div [ngStyle]="item.style" width="250" height="500" [ngClass]="(isScrollInto ? ($index % 2 === 0 ? 'fade-in-left' : 'fade-in-right') : '')" alt="" class="col-md-3 object-fit-cover img">
+    </div>
+
   }
 </div>

@@ -1,12 +1,17 @@
-import { Component, ElementRef, HostListener, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component, ElementRef, HostListener, Inject, PLATFORM_ID, QueryList, ViewChild, ViewChildren, inject, signal } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { interval, take, tap } from 'rxjs';
+import { toObservable } from '@angular/core/rxjs-interop';
+
 
 @Component({
   selector: 'app-wedding-dairy',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './wedding-dairy.component.html',
-  styleUrl: './wedding-dairy.component.scss'
+  styleUrl: './wedding-dairy.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class WeddingDairyComponent {
 
@@ -81,16 +86,120 @@ export class WeddingDairyComponent {
  el = inject(ElementRef)
  isScrollInto = false;
 
- @HostListener('window:scroll', ['$event'])
-  checkScroll() {
-    const componentPosition = this.el.nativeElement.offsetTop
-    const scrollPosition = window.pageYOffset
-    if (scrollPosition >= componentPosition - 450) {
-      console.log(11111)
-      this.isScrollInto = true;
-    } else {
-      this.isScrollInto = false;
-    }
+ selectedIndex = 0;
+  @ViewChild('carousel') carousel!:ElementRef;
+  @ViewChildren('carousel__cell') cells!:QueryList<ElementRef>
+  cellWidth = 0;
+  cellHeight = 0;
+  isHorizontal:boolean = true;
+  rotateFn = this.isHorizontal ? 'rotateY' : 'rotateX';
+  radius = 0;
+  theta = 0;
 
+  activeSlideIndex = signal<number>(0);
+  activeSlideIndex$ = toObservable(this.activeSlideIndex);
+  numbers = interval(15000);
+  isBrowser = signal(false);
+
+  constructor(@Inject(PLATFORM_ID) platformId: object) {
+    this.isBrowser.set(isPlatformBrowser(platformId));
+  }
+
+//  @HostListener('window:scroll', ['$event'])
+  // checkScroll() {
+  //   const componentPosition = this.el.nativeElement.offsetTop
+  //   const scrollPosition = window.pageYOffset
+  //   if (scrollPosition >= componentPosition - 450) {
+  //     console.log(11111)
+  //     this.isScrollInto = true;
+  //   } else {
+  //     this.isScrollInto = false;
+  //   }
+
+  // }
+
+  ngOnInit() {
+    if (this.isBrowser()) {
+      interval(5000).pipe(
+        tap(() => {
+          this.next();
+        })
+      )
+        .subscribe()
+      // setTimeout(() => {
+      //   this.next();
+      // },5000)
+    }
+  }
+
+  getStyle(index:number)
+  {
+    if (!this.cellCount)
+       return null;
+    const angle=(index-this.selectedIndex)*2*Math.PI/this.cellCount
+    const scale=((75)+25*Math.cos(angle))/100
+
+    return {
+      left:-75+150*Math.sin(angle)+'px',
+      transform:'scale('+scale+')',
+      position:'absolute',
+      "z-index":Math.floor(100*scale)
+    }
+  }
+  get cellCount()
+  {
+    return this.cells?this.cells.length:0;
+  }
+  // console.log( cellWidth, cellHeight );
+
+  prev()
+  {
+    this.selectedIndex--;
+    this.rotateCarousel();
+  }
+  next()
+  {
+    this.selectedIndex++;
+    this.rotateCarousel();
+  }
+
+  initCarousel() {
+    this.theta = 360 / this.cellCount;
+    const cellSize = this.isHorizontal ? this.cellWidth : this.cellHeight;
+    this.radius = Math.round( ( cellSize / 2) / Math.tan( Math.PI / this.cellCount ) );
+    this.cells.forEach((cell:ElementRef,i:number)=>
+    {
+       if (i<this.cellCount)
+       {
+           cell.nativeElement.style.opacity=1
+           const cellAngle=this.theta*i;
+           cell.nativeElement.style.transform = this.rotateFn + '(' + cellAngle + 'deg) translateZ(' + this.radius + 'px)';
+       }
+       else
+       {
+        cell.nativeElement.style.opacity = 0;
+        cell.nativeElement.style.transform = 'none';
+
+       }
+    })
+    this.rotateCarousel();
+  }
+
+  orientationChange()
+  {
+    this.rotateFn = this.isHorizontal ? 'rotateY' : 'rotateX';
+    this.initCarousel()
+  }
+
+  rotateCarousel() {
+    const angle = this.selectedIndex / this.cellCount * -360;
+    this.carousel.nativeElement.style.transform = 'translateZ(-288px)'+this.rotateFn+'(' + angle + 'deg)';
+  }
+  
+  ngAfterViewInit()
+  {
+    this.cellWidth = this.carousel.nativeElement.offsetWidth;
+    this.cellHeight = this.carousel.nativeElement.offsetHeight;
+    this.initCarousel()
   }
 }

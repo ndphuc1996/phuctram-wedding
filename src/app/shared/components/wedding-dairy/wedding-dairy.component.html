@@ -1,4 +1,4 @@
-<div class="row dairy-wrapper justify-content-center">
+<div class="row dairy-wrapper justify-content-center show-desktop">
   <div class="title">Hãy cùng chúng tôi lưu lại những khoảnh khắc</div>
 
   @for (item of data; track $index) {
@@ -8,4 +8,25 @@
     </div>
   }
 </div>
+
+<div class="row dairy-wrapper justify-content-center show-mobile">
+  <div class="title">Hãy cùng chúng tôi lưu lại những khoảnh khắc</div>
+  <div class="scene">
+    <div #carousel class="carousel">
+      <div
+        #carousel__cell
+        *ngFor="let item of data; let index = index"
+        class="carousel__cell"
+      >
+      <div class="img-wrapper">
+        <img alt="" class="img-main object-fit-cover" [src]="item.imgUrl">
+        <div class="img-title">{{item.imgTitle}}</div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
 
