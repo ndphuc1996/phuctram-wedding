@@ -4,9 +4,11 @@ import { SafePipe } from '../../../features/home/sate.pipe';
 import { ActivatedRoute, Params } from '@angular/router';
 
 interface WeddingAddressInfo {
-  street: string,
-  num: string,
-  city: string,
+  street: string;
+  num: string;
+  city: string;
+  title: string;
+  left: number;
 }
 
 @Component({
@@ -37,24 +39,32 @@ export class WhatWeDoComponent implements OnInit {
       home: {
         street: "195/2 Hương Lộ 45",
         num: "",
-        city: "Diên Phú"
+        city: "Diên Phú",
+        title: "Hẻm nhà mình nè",
+        left: 50,
       },
       restaurant: {
         street: "Trung Tâm Tiệc Cưới Phúc Thịnh An",
         num: "đường 23/10",
-        city: "Diên Khánh"
+        city: "Diên Khánh",
+        title: "Nhà hàng quẩy banh nóc nè",
+        left: 35,
       }
     },
     bride: {
       home: {
-        street: "10.25387, 105.9805",
-        num: "",
-        city: ""
+        street: "Siêu thị Bách Hoá XANH Phường 5",
+        num: "tờ bản đồ số 10, Khóm 2",
+        city: "Vĩnh Long",
+        title: "Hẻm nhà mình đối diện BHX nè",
+        left: 65,
       },
       restaurant: {
         street: "Nhà Hàng Đức Phát Hoàng Gia",
         num: "66/8D Phạm Thái Bường",
-        city: "Vĩnh Long"
+        city: "Vĩnh Long",
+        title: "Nhà hàng quẩy banh nóc nè",
+        left: 35,
       }
     }
   }

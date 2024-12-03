@@ -16,7 +16,7 @@
 
 <div class="row">
   <div class="col-md-6 wrapper">
-    <div class="home">Nhà của mìnhhhh</div>
+    <div [ngStyle]="{'left': (weddingAddressInfo()?.home?.left || 0)+'%'}" class="home">{{weddingAddressInfo()?.home?.title}}</div>
     <iframe
     width="600"
     height="450"
@@ -28,7 +28,7 @@
   </iframe>
   </div>
 <div class="col-md-6 wrapper">
-  <div class="restaurant">Nhà hàng quẩy banh nóc nè</div>
+  <div [ngStyle]="{'left': (weddingAddressInfo()?.restaurant?.left || 0)+'%'}" class="restaurant">{{weddingAddressInfo()?.restaurant?.title}}</div>
   <iframe
   width="600"
   height="450"
