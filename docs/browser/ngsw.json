@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1733189696206,
+  "timestamp": 1733221813618,
   "index": "/phuctram-wedding/browser/index.csr.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/phuctram-wedding/browser/index.html",
-        "/phuctram-wedding/browser/main-NW4H23BD.js",
+        "/phuctram-wedding/browser/main-6D6ZIFIP.js",
         "/phuctram-wedding/browser/polyfills-FFHMD2TL.js",
         "/phuctram-wedding/browser/scripts-EEEIPNC3.js"
       ],
@@ -164,8 +164,8 @@
     "/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-yellow-1.jpg": "ded34c23134f8f4cd4243d7629c3ef4495c49aed",
     "/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-yellow-2.jpg": "028562ea7b78f80736f66bb17eaa83d3ae0d937c",
     "/phuctram-wedding/browser/assets/params/images/wedding/phuctram-bg-yellow-5.jpg": "d1300ed2cdf97c9b1b70305ed092ea6fb72f0eae",
-    "/phuctram-wedding/browser/index.html": "3dc8a3ab1899d58acb3aca7839b999e69cb6bb64",
-    "/phuctram-wedding/browser/main-NW4H23BD.js": "b525eff63bed90f0f10837de8d46fec70dfeb676",
+    "/phuctram-wedding/browser/index.html": "1f5522d3dadd7e825768a6b467aedde903e665d4",
+    "/phuctram-wedding/browser/main-6D6ZIFIP.js": "d326a51bf5b2901cb75a284f1b4ff76403395fed",
     "/phuctram-wedding/browser/media/Inter-italic.var-YRHKCDAA.woff2": "9995712e0ca3cda14c7d6014abe0f979cf57ec53",
     "/phuctram-wedding/browser/media/Inter-roman.var-5VGNBR6A.woff2": "d56a83c1e298702010cde038317713aaef23fe6c",
     "/phuctram-wedding/browser/media/color-727V6BA6.png": "c54e4eac0b6c88b9da8cfdf00b1d9093b828286b",
