@@ -66,7 +66,10 @@ export class WeddingInvitationComponent implements OnInit {
   ngOnInit(): void {
       if (this.isBrowser()) {
           this.queryParams = this.#route?.snapshot?.queryParams || {};
-          this.isWeddingAtGroom.set(this.queryParams['place'] === 'g');
+          if(this.queryParams['place']) {
+            this.isWeddingAtGroom.set(this.queryParams['place'] === 'g');
+          }
+          
           if (this.queryParams['place'] === 'b') {
             this.weddingInfo.set(this.data.bride);
           }
